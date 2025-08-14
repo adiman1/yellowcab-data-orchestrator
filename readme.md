@@ -94,10 +94,10 @@ docker-compose up --build
 ---
 
 ## 🔜 Future Improvements
-
-- Real-time ingestion with **Kinesis** or **Kafka**  
+ 
 - Add **Slack/Email alerts** for DAG failures  
-- Parameterize DAGs for multi-year/month processing  
+- Parameterize DAGs for multi-year/month processing
+- Integration with Columnar DB's (e.g. Redshift)
 - Integration with BI dashboards (e.g., QuickSight, Tableau)
 
 ---
