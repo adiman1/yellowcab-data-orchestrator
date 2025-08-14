@@ -16,7 +16,6 @@ The raw NYC Taxi data is transformed to ensure quality and analytics readiness:
 ## Some Example Benefits
 
 **Compression:** Converting CSV to Parquet reduces file sizes by roughly 1/4, improving storage efficiency and query performance.
-
 &nbsp;
 
    **Original CSV Sizes:**  
