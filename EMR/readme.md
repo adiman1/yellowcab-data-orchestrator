@@ -17,10 +17,11 @@ The raw NYC Taxi data is transformed to ensure quality and analytics readiness:
 
 **Compression:** Converting CSV to Parquet reduces file sizes by roughly 1/4, improving storage efficiency and query performance.
 
+&nbsp;
+
    **Original CSV Sizes:**  
    ![Original CSV Sizes](https://github.com/adiman1/yellowcab-data-orchestrator/raw/f5fe7e518bf0b8e9900fc5ad6221bc9fe6d5a65f/media/raw_sizes_csv.png)
 
-   &nbsp;
 
    **Parquet File Sizes:**  
    ![Parquet Folders Size](https://github.com/adiman1/yellowcab-data-orchestrator/blob/5558b508430bfdac1d8b2d2d56fac6ce78f5b6f6/media/parquet_folders_sizes.png)
