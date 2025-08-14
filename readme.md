@@ -6,15 +6,15 @@ End-to-end, cross-platform ETL pipeline for the NYC Taxi trip data.
 
 ## 📝 Dataset and Purpose
 
-The **NYC Taxi Trip dataset** contains detailed records of taxi rides in New York City, including:  
+We are using the Annual Trips Done Raw datasets provided by unnamed yellow taxi Technology Service Providers (TSPs).
+
+The **NYC Taxi Trip datasets** contains detailed records of taxi rides in New York City, including:  
 
 - **Trip details:** pickup/dropoff timestamps, locations, trip distance  
 - **Fare information:** fare amount, tip, total amount, and payment type  
 - **Vendor information:** vendor ID, rate code, and other metadata  
 - **Purpose:** Ideal for analyzing ride patterns, fare trends, outlier detection, and city-wide transportation insights  
-- **Source:** Publicly available from the **NYC Taxi & Limousine Commission (TLC)**
-
-We are using the Annual Trips Done Raw datasets by an anonymous yellow taxi Technology Service Providers (TSPs). 
+- **Source:** Publicly available from the **NYC Taxi & Limousine Commission (TLC)** 
 
 These datasets are **large scale and time series oriented**, making it perfect for demonstrating **ETL pipelines, cross platform orchestration, and big data analytics**.
 
