@@ -12,7 +12,7 @@ s3_to_emr DAG
      │       └─ Exactly One New File (PythonOperator: inserted_one_file_message)
      │                │
      │                ▼
-     │           Trigger EMR_to_Transformed_S3 DAG (TriggerDagRunOperator)
+     │           Trigger emr_to_cleaned_s3 DAG (TriggerDagRunOperator)
      │
      ▼
 emr_to_cleaned_s3 DAG
@@ -25,7 +25,7 @@ emr_to_cleaned_s3 DAG
      ├─ Wait for Step Completion (EmrStepSensor)
      ├─ Terminate EMR Cluster (EmrTerminateJobFlowOperator)
      ├─ Update Postgres Status (PythonOperator)
-     └─ Trigger Glue DAG (TriggerDagRunOperator)
+     └─ Trigger glue_job DAG (TriggerDagRunOperator)
            │
            ▼
 glue_job DAG
