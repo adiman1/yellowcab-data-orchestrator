@@ -6,7 +6,7 @@ End-to-end, cross-platform ETL pipeline for the NYC Taxi trip data.
 
 ## 📝 Dataset and Purpose
 
-We are using the Annual Trips Done Raw datasets provided by unnamed yellow taxi Technology Service Providers (TSPs).
+We are using the **Annual Trips Done Raw datasets** provided by unnamed yellow taxi Technology Service Providers (TSPs).
 
 The **NYC Taxi Trip datasets** contains detailed records of taxi rides in New York City, including:  
 
