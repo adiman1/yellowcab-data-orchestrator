@@ -1,21 +1,22 @@
+import os
+from datetime import datetime, timedelta
+
+import pytz
+from dotenv import load_dotenv
+
 from airflow import DAG
-from airflow.utils.dates import days_ago
-from datetime import timedelta
 from airflow.providers.amazon.aws.operators.emr import (
     EmrCreateJobFlowOperator,
     EmrAddStepsOperator,
-    EmrTerminateJobFlowOperator
+    EmrTerminateJobFlowOperator,
 )
 from airflow.providers.amazon.aws.sensors.emr import EmrJobFlowSensor, EmrStepSensor
 from airflow.operators.python import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
-from datetime import datetime
-import pytz
-import os
-from dotenv import load_dotenv
+from airflow.utils.dates import days_ago
 
-load_dotenv()
+# Load environment variables from .env file
 
 # added as Connections in UI
 AWS_CONN_ID = "aws_default"
@@ -182,8 +183,7 @@ with DAG(
         aws_conn_id=AWS_CONN_ID,
     )
 
-    # We need a PythonOperator to build the spark steps and push to XCom before the add_spark_step
-    # This executes -> calls def build_spark_steps functions -> passes the spark job specs (via XCOM) to the above task add_spark_step
+    # This task calls def build_spark_steps function -> passes the spark job specs (via XCOM) to the above task add_spark_step
     # This is a necessary workaround to dynamically pass Input Paths of the new file added
     build_spark_steps_task = PythonOperator(
         task_id="build_spark_steps",
