@@ -1,13 +1,27 @@
 # Yellow Cab Data Orchestrator
 
-End-to-end, cross-platform ETL pipeline for NYC Taxi trip data using S3, Postgres, EMR, Glue/Athena, orchestrated with Airflow
+End-to-end, cross-platform ETL pipeline for the NYC Taxi trip data.
 
 ---
 
-## 📝 Purpose
+## 📝 Dataset and Purpose
+
+The **NYC Taxi Trip dataset** contains detailed records of taxi rides in New York City, including:  
+
+- **Trip details:** pickup/dropoff timestamps, locations, trip distance  
+- **Fare information:** fare amount, tip, total amount, and payment type  
+- **Vendor information:** vendor ID, rate code, and other metadata  
+- **Purpose:** Ideal for analyzing ride patterns, fare trends, outlier detection, and city-wide transportation insights  
+- **Source:** Publicly available from the **NYC Taxi & Limousine Commission (TLC)**  
+
+This dataset is **large scale and time series oriented**, making it perfect for demonstrating **ETL pipelines, cross platform orchestration, and big data analytics**.
+
+---
+
+## 📊 Pipeline Architecture
 
 - Ingest raw CSV taxi trip data into a Landing Zone S3 Bucket.  
-- Validate files added in bucket and track processing using PostgreSQL.  
+- Validate files added in bucket and track processing status (for idempotency) using PostgreSQL.  
 - Process and aggregate data added files on EMR using Spark.
 - Store cleaned/aggregated data back in a Transformed S3 Bucket.
 - Crawl the transformed bucket and Make processed data queryable via AWS Glue and Athena.  
@@ -35,7 +49,7 @@ airflow-orc/
 ```
 ---
 
-## ⚡ Tech Stack
+## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)  
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.5-orange?logo=apache-spark&logoColor=white)  
