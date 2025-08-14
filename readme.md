@@ -59,10 +59,10 @@ airflow-orc/
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)  
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.5-orange?logo=apache-spark&logoColor=white)  
 ![Airflow](https://img.shields.io/badge/Apache%20Airflow-2.9-red?logo=apache-airflow&logoColor=white)  
-![AWS S3](https://img.shields.io/badge/AWS%20S3-orange?logo=amazon-aws&logoColor=white)  
-![AWS EMR](https://img.shields.io/badge/AWS%20EMR-orange?logo=amazon-aws&logoColor=white)  
-![AWS Glue](https://img.shields.io/badge/AWS%20Glue-orange?logo=amazon-aws&logoColor=white)  
-![Athena](https://img.shields.io/badge/Athena-purple?logo=amazon-aws&logoColor=white)  
+![AWS S3](https://img.shields.io/badge/AWS%20S3-green?logo=amazon-aws&logoColor=white)  
+![AWS EMR](https://img.shields.io/badge/AWS%20EMR-purple?logo=amazon-aws&logoColor=white)  
+![AWS Glue](https://img.shields.io/badge/AWS%20Glue-green?logo=amazon-aws&logoColor=white)  
+![AWS Athena](https://img.shields.io/badge/Athena-purple?logo=amazon-aws&logoColor=white)  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13-blue?logo=postgresql&logoColor=white)  
 
 ---
