@@ -1,12 +1,12 @@
+import os
+from dotenv import load_dotenv
+
 from airflow import DAG
 from airflow.utils.dates import days_ago
 from airflow.operators.python import PythonOperator, BranchPythonOperator
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from airflow.hooks.postgres_hook import PostgresHook
 from airflow.providers.amazon.aws.hooks.s3 import S3Hook
-
-import os
-from dotenv import load_dotenv
 
 load_dotenv()
 
