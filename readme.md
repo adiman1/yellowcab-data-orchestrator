@@ -71,6 +71,19 @@ docker-compose up --build
 
 ---
 
+## 🖥 Project Structure
+
+The project file structure will be **automatically generated** when you run the Docker Compose setup.  
+This includes:
+
+- `dags/` – Airflow DAGs for ETL workflows  
+- `logs/` – Airflow task logs  
+- `plugins/` – Airflow custom operators/hooks (none used here)  
+- `.env` – Environment variables for AWS and PostgreSQL connections  
+- `docker-compose.yaml` – Containerized Airflow & PostgreSQL setup
+
+---
+
 ## (🎶) Orchestrating the Project
 
 - Trigger Airflow DAGs to start the ETL workflow.  
