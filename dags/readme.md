@@ -1,5 +1,6 @@
 ## Execution Flow
 
+```
 Raw Data (S3)
      │
      ▼
@@ -34,3 +35,5 @@ glue_job DAG
            │
            ▼
      Athena Queryable Table
+```
+
