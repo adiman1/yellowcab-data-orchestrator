@@ -23,5 +23,6 @@ The raw NYC Taxi data is transformed to ensure quality and analytics readiness:
    **Parquet File Sizes:**  
    ![Parquet Folders Size](https://github.com/adiman1/yellowcab-data-orchestrator/blob/5558b508430bfdac1d8b2d2d56fac6ce78f5b6f6/media/parquet_folders_sizes.png)
 
+---
 
 2. **Partitioning:** Parquet files are partitioned by `month`, which improves query performance by reading only relevant partitions instead of the full dataset.
