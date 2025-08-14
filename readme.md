@@ -20,24 +20,11 @@ These datasets are **large scale and time series oriented**, making it perfect f
 
 They are available on **NYC OpenData Website**. Sample: [2022 Yellow Taxi Trip Data](https://data.cityofnewyork.us/Transportation/2022-Yellow-Taxi-Trip-Data/qp3b-zxtp/about_data)
 
-
----
-
-## 📊 Pipeline Architecture
-
-- Ingest raw CSV taxi trip data into a Landing Zone S3 Bucket.  
-- Validate files added in bucket and track processing status (for idempotency) using PostgreSQL.  
-- Process and aggregate data added files on EMR using Spark.
-- Store cleaned/aggregated data back in a Transformed S3 Bucket.
-- Crawl the transformed bucket and Make processed data queryable via AWS Glue and Athena.  
-- Orchestrate all workflows, dependencies, and monitoring via Airflow.  
-
 ---
 
 ## 🗂️ Project Structure
 
 ```
-
 airflow-orc/
 │
 ├── dags/                        # Airflow DAGs (E2E workflows)
@@ -52,6 +39,7 @@ airflow-orc/
 └── README.md                    # Project description & instructions
 
 ```
+
 ---
 
 ## ⚙️ Setup
@@ -66,7 +54,7 @@ airflow-orc/
 
 2. Install and run **Docker Desktop**
 
-3. **Run Docker compose file** to start Airflow and PostgreSQL:
+3. **Run Docker compose file** via your preferred IDE to start Airflow and PostgreSQL:
 
 ```bash
 docker-compose up --build
@@ -83,6 +71,35 @@ docker-compose up --build
 
 ---
 
+## (🎶) Orchestrating the Project
+
+- Trigger Airflow DAGs to start the ETL workflow.  
+- DAGs perform: 
+   - Validate file added in Landing Zone S3 Bucket and track processing status (for idempotency) using PostgreSQL.  
+   - Processing of added file on EMR using Spark.
+   - Store the cleaned data back in a Transformed S3 Bucket.
+   - Crawl the transformed bucket and Make processed data queryable via AWS Glue and Athena.   
+
+**Note:** This Pipeline was built for batch processing.
+
+---
+
+## 🛢️ Database Integration
+
+- PostgreSQL tracks processed files for **idempotency**  
+- Stores metadata about ingestion, processing timestamps, and DAG status
+
+---
+
+## 🔮 Future Improvements
+
+- Real-time ingestion with **Kinesis** or **Kafka**  
+- Add **Slack/Email alerts** for DAG failures  
+- Parameterize DAGs for multi-year/month processing  
+- Integration with BI dashboards (e.g., QuickSight, Tableau)
+
+---
+
 ## ⚙️ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)  
@@ -93,6 +110,5 @@ docker-compose up --build
 ![AWS EMR](https://img.shields.io/badge/AWS%20EMR-green?logo=amazon-aws&logoColor=white)  
 ![AWS Glue](https://img.shields.io/badge/AWS%20Glue-green?logo=amazon-aws&logoColor=white)  
 ![AWS Athena](https://img.shields.io/badge/Athena-green?logo=amazon-aws&logoColor=white)  
- 
 
 ---
