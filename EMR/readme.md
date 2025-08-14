@@ -26,7 +26,7 @@ Converting CSV to Parquet **reduces file sizes by roughly 1/4**, improving stora
    ![Parquet Folders Size](https://github.com/adiman1/yellowcab-data-orchestrator/blob/5558b508430bfdac1d8b2d2d56fac6ce78f5b6f6/media/parquet_folders_sizes.png)
 
    **c) Partition Parquet Structure:**
-   ![Partitioned files](https://github.com/adiman1/yellowcab-data-orchestrator/blob/f7d47f4ddf87b8784a833d407103e7a9bebe7a9c/media/parquet_files_in_partition.png)
+   ![Partitioned files](https://github.com/adiman1/yellowcab-data-orchestrator/blob/7d71bd8817fbbb0ff5ca1b5c427c0f1d2fd8ec15/media/parquet_files_in_partition.PNG)
 
 ---
 
