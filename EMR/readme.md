@@ -13,6 +13,5 @@ The raw NYC Taxi data is transformed to ensure quality and analytics readiness:
 
 ---
 
-## Example Benefits seen cause of the Transformation
-
+## Some Example Benefits
 
