@@ -1,4 +1,4 @@
-# ![Taxi Icon](https://img.icons8.com/color/48/000000/taxi.png) Yellow Cab Data Orchestrator
+# Yellow Cab Data Orchestrator
 
 End-to-end, cross-platform ETL pipeline for NYC Taxi trip data using S3, Postgres, EMR, Glue/Athena, orchestrated with Airflow
 
@@ -17,6 +17,8 @@ End-to-end, cross-platform ETL pipeline for NYC Taxi trip data using S3, Postgre
 
 ## 🗂️ Project Structure
 
+```
+
 airflow-orc/
 │
 ├── dags/                        # Airflow DAGs (E2E workflows)
@@ -30,6 +32,7 @@ airflow-orc/
 ├── docker-compose.yaml          # Containerized Airflow setup
 └── README.md                    # Project description & instructions
 
+```
 ---
 
 ## ⚡ Tech Stack
