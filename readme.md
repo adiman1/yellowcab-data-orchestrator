@@ -6,7 +6,7 @@ End-to-end, cross-platform ETL pipeline for the NYC Taxi trip data.
 
 ## 📝 Dataset and Purpose
 
-We are using the **Annual Trips Done Raw datasets** provided by unnamed yellow taxi Technology Service Providers (TSPs).
+We are using the **Annual Trips Done** raw datasets provided by unnamed yellow taxi Technology Service Providers (TSPs).
 
 The **NYC Taxi Trip datasets** contains detailed records of taxi rides in New York City, including:  
 
@@ -53,7 +53,7 @@ airflow-orc/
 ```
 ---
 
-## Tech Stack
+## ⚙️ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)  
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.5-orange?logo=apache-spark&logoColor=white)  
@@ -63,6 +63,5 @@ airflow-orc/
 ![AWS Glue](https://img.shields.io/badge/AWS%20Glue-orange?logo=amazon-aws&logoColor=white)  
 ![Athena](https://img.shields.io/badge/Athena-purple?logo=amazon-aws&logoColor=white)  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13-blue?logo=postgresql&logoColor=white)  
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
