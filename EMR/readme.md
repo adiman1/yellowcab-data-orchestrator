@@ -15,3 +15,10 @@ The raw NYC Taxi data is transformed to ensure quality and analytics readiness:
 
 ## Some Example Benefits
 
+1. **Compression:** A 1/4th reduction in File Sizes.
+   
+![Original CSV Sizes](https://github.com/adiman1/yellowcab-data-orchestrator/raw/f5fe7e518bf0b8e9900fc5ad6221bc9fe6d5a65f/media/raw_sizes_csv.png)
+
+![Parquet Folders Size](https://github.com/adiman1/yellowcab-data-orchestrator/raw/f5fe7e518bf0b8e9900fc5ad6221bc9fe6d5a65f/media/parquet_folders_size.png)
+
+
