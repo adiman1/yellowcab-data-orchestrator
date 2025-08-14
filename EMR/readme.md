@@ -37,7 +37,7 @@ Parquet files are partitioned by `month`, which improves query performance by **
   **a) Reading via Existing Timestamp Column:**
   ![Query via Normal Column](https://github.com/adiman1/yellowcab-data-orchestrator/raw/f3826e245e3dd8d85b295ccfc4fd1e0a2b44c5ad/media/raw_query_on_existingcol.PNG)
 
-**Note:** Reading 2022 data. Both Queries were done post 1st DAG Run
+> **Note:** Reading Only 2022 data. Both queries were done post 1st DAG run.
 
   **b) Reading via Partition:**
   ![Query via Partition](https://github.com/adiman1/yellowcab-data-orchestrator/raw/f3826e245e3dd8d85b295ccfc4fd1e0a2b44c5ad/media/query_via_partition.PNG)
