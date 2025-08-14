@@ -25,6 +25,9 @@ Converting CSV to Parquet **reduces file sizes by roughly 1/4**, improving stora
    **b) Parquet File Sizes:**  
    ![Parquet Folders Size](https://github.com/adiman1/yellowcab-data-orchestrator/blob/5558b508430bfdac1d8b2d2d56fac6ce78f5b6f6/media/parquet_folders_sizes.png)
 
+   **c) Partition Parquet Structure:**
+   ![Partitioned files](https://github.com/adiman1/yellowcab-data-orchestrator/blob/f7d47f4ddf87b8784a833d407103e7a9bebe7a9c/media/parquet_files_in_partition.png)
+
 ---
 
 ### 2) Partitioning
@@ -33,9 +36,6 @@ Parquet files are partitioned by `month`, which improves query performance by **
 
   **a) Reading via Existing Timestamp Column:**
   ![Query via Normal Column](https://github.com/adiman1/yellowcab-data-orchestrator/raw/f3826e245e3dd8d85b295ccfc4fd1e0a2b44c5ad/media/raw_query_on_existingcol.PNG)
-  
-  **b) Partition Parquet Structure:**
-  ![Partitioned files](https://github.com/adiman1/yellowcab-data-orchestrator/blob/f7d47f4ddf87b8784a833d407103e7a9bebe7a9c/media/parquet_files_in_partition.png)
 
   **b) Reading via Partition:**
   ![Query via Partition](https://github.com/adiman1/yellowcab-data-orchestrator/raw/f3826e245e3dd8d85b295ccfc4fd1e0a2b44c5ad/media/query_via_partition.PNG)
