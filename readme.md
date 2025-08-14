@@ -12,9 +12,13 @@ The **NYC Taxi Trip dataset** contains detailed records of taxi rides in New Yor
 - **Fare information:** fare amount, tip, total amount, and payment type  
 - **Vendor information:** vendor ID, rate code, and other metadata  
 - **Purpose:** Ideal for analyzing ride patterns, fare trends, outlier detection, and city-wide transportation insights  
-- **Source:** Publicly available from the **NYC Taxi & Limousine Commission (TLC)**  
+- **Source:** Publicly available from the **NYC Taxi & Limousine Commission (TLC)**
 
-This dataset is **large scale and time series oriented**, making it perfect for demonstrating **ETL pipelines, cross platform orchestration, and big data analytics**.
+We are using the Annual Trips Done Raw datasets by an anonymous yellow taxi Technology Service Providers (TSPs). 
+
+These datasets are **large scale and time series oriented**, making it perfect for demonstrating **ETL pipelines, cross platform orchestration, and big data analytics**.
+
+They are available on NYC OpenData Website.
 
 ---
 
