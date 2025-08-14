@@ -112,7 +112,7 @@ def build_spark_steps(**context):
                 }
             ]
 
-# Function to update file status when EMR job runs successfully
+# Function to Update file status when EMR job runs successfully
 def update_postgres_status(**context):
     ti = context['ti']
     filename = ti.xcom_pull(task_ids='prepare_input_location', key='input_file_name')
@@ -165,7 +165,7 @@ with DAG(
         aws_conn_id=AWS_CONN_ID,
     )
 
-    # Sense change in Cluster from starting to Waiting
+    # sense change in Cluster from starting to Waiting
     wait_for_cluster = EmrJobFlowSensor(
         task_id="wait_for_emr_cluster",
         job_flow_id="{{ task_instance.xcom_pull('create_emr_cluster', key='return_value') }}",
@@ -192,7 +192,7 @@ with DAG(
         provide_context=True,
     )
 
-    # Sensor to wait for Cluster status - Completed
+    # sensor to wait for Cluster status - Completed
     wait_for_step = EmrStepSensor(
         task_id="wait_for_step_completion",
         job_flow_id="{{ task_instance.xcom_pull('create_emr_cluster', key='return_value') }}",
@@ -217,14 +217,14 @@ with DAG(
     provide_context=True
     )
 
-    # task to trigger glue job via next dag
+    # task to Trigger Glue job via next dag
     trigger_glue = TriggerDagRunOperator(
     task_id="trigger_glue",
     trigger_dag_id="TRANSFORMED_S3_to_GLUE_ATHENA",
     wait_for_completion=False
     )
 
-    # dependencies
+    # Dependencies
     prepare_input >> create_cluster >> wait_for_cluster >> build_spark_steps_task >> add_spark_step >> wait_for_step
     wait_for_step >> terminate_cluster >> update_status_task >> trigger_glue
 
