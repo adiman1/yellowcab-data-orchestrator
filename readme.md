@@ -18,7 +18,8 @@ The **NYC Taxi Trip datasets** contains detailed records of taxi rides in New Yo
 
 These datasets are **large scale and time series oriented**, making it perfect for demonstrating **ETL pipelines, cross platform orchestration, and big data analytics**.
 
-They are available on NYC OpenData Website.
+They are available on NYC OpenData Website. Example dataset: [2022 Yellow Taxi Trip Data](https://data.cityofnewyork.us/Transportation/2022-Yellow-Taxi-Trip-Data/qp3b-zxtp/about_data)
+
 
 ---
 
