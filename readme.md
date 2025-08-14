@@ -99,6 +99,21 @@ docker-compose up --build
 
 ---
 
+## ⚡ EMR/Spark - Data Transformation done & Rationale
+
+The raw NYC Taxi data is transformed to ensure quality and analytics readiness:
+
+- **Extract Year & Month:** Derived from filename and pickup datetime to enable time-based filtering and partitioning.  
+- **Timestamp Conversion:** Converts pickup/dropoff strings to timestamps for accurate duration calculations.  
+- **Filter Invalid Trips:** Removes trips with zero distance, negative duration, or zero passengers.  
+- **Compute Effective Fare:** Aggregates fare components to handle missing values.  
+- **Outlier Removal:** Filters extreme values using percentiles to improve data reliability.  
+- **Map Payment Type & Flags:** Converts codes to meaningful labels and boolean flags.  
+- **Join Lookup Data:** Enriches pickup location info with borough, zone, and service zone.  
+- **Output:** Writes clean data to S3 in Parquet, partitioned by month.
+
+---
+
 ## 🔜 Future Improvements
  
 - Add **Slack/Email alerts** for DAG failures  
