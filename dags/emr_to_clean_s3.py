@@ -225,6 +225,7 @@ with DAG(
     )
 
     # Dependencies
-    prepare_input >> create_cluster >> wait_for_cluster >> build_spark_steps_task >> add_spark_step >> wait_for_step
+    prepare_input >> create_cluster >> wait_for_cluster
+    wait_for_cluster >> build_spark_steps_task >> add_spark_step >> wait_for_step
     wait_for_step >> terminate_cluster >> update_status_task >> trigger_glue
 
