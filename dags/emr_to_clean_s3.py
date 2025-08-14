@@ -1,8 +1,8 @@
 import os
-from datetime import datetime, timedelta
+from dotenv import load_dotenv
 
 import pytz
-from dotenv import load_dotenv
+from datetime import datetime, timedelta
 
 from airflow import DAG
 from airflow.providers.amazon.aws.operators.emr import (
@@ -17,6 +17,7 @@ from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from airflow.utils.dates import days_ago
 
 # Load environment variables from .env file
+load_dotenv()
 
 # added as Connections in UI
 AWS_CONN_ID = "aws_default"
