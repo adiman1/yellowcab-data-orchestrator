@@ -31,8 +31,8 @@ airflow-orc/
 │
 ├── dags/                        # Airflow DAGs (E2E workflows)
 │   ├── s3_to_emr.py             # DAG: Raw S3 → EMR
-│   ├── emr_to_cleaned_s3.py     # DAG: EMR → S3
-│   └── glue_job.py              # DAG: Glue ETL job
+│   ├── emr_to_cleaned_s3.py     # DAG: EMR → Cleaned S3
+│   └── glue_job.py              # DAG: Glue Crawler job to read new data
 │
 ├── logs/                        # Airflow logs
 ├── plugins/                     # Airflow custom operators/hooks (none used here)
@@ -53,7 +53,7 @@ The project file structure will be **automatically generated** when you run the 
 - Ensure the IAM user/role has sufficient permissions for:
    - Reading/writing to S3 buckets  
    - Submitting jobs to EMR  
-   - Running Glue crawlers and queries  
+   - Running Glue crawlers  
    - Querying Athena
 
 2. Install and run **Docker Desktop**
