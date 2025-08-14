@@ -21,7 +21,7 @@ The raw NYC Taxi data is transformed to ensure quality and analytics readiness:
    ![Original CSV Sizes](https://github.com/adiman1/yellowcab-data-orchestrator/raw/f5fe7e518bf0b8e9900fc5ad6221bc9fe6d5a65f/media/raw_sizes_csv.png)
 
    **Parquet File Sizes:**  
-   ![Parquet Folders Size](https://github.com/adiman1/yellowcab-data-orchestrator/raw/f5fe7e518bf0b8e9900fc5ad6221bc9fe6d5a65f/media/parquet_folders_size.png)
+   ![Parquet Folders Size]()
 
 
 
