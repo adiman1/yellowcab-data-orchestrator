@@ -54,6 +54,33 @@ airflow-orc/
 ```
 ---
 
+## ⚙️ Setup
+
+1. **Configure AWS credentials** to access your IAM account for S3, EMR, Glue, and Athena.  
+   - These can be set in the `.env` file or directly in **Airflow Connections**.  
+   - Ensure the IAM user/role has sufficient permissions for:
+     - Reading/writing to S3 buckets  
+     - Submitting jobs to EMR  
+     - Running Glue crawlers and queries  
+     - Querying Athena
+
+2. **Run Docker containers** to start Airflow and PostgreSQL:
+
+```bash
+docker-compose up --build
+```
+
+3. **Access Airflow UI** at [http://localhost:8080](http://localhost:8080) to:
+
+- Trigger DAGs
+- Monitor task progress
+- Manage connections and credentials
+- Upload raw CSV files to your Landing S3 bucket to start the ETL workflow
+
+4. Upload raw CSV files to your Landing S3 bucket to start the ETL workflow
+
+---
+
 ## ⚙️ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)  
