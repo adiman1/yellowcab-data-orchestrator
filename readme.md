@@ -40,6 +40,8 @@ airflow-orc/
 
 ```
 
+The project file structure will be **automatically generated** when you run the Docker Compose setup. Just add the dags, env variables.
+
 ---
 
 ## ⚙️ Setup
@@ -68,19 +70,6 @@ docker-compose up --build
 - Upload raw CSV files to your Landing S3 bucket to start the ETL workflow
 
 5. **Upload raw CSV** files to your Landing S3 bucket to start the ETL workflow
-
----
-
-## 🖥 Project Structure
-
-The project file structure will be **automatically generated** when you run the Docker Compose setup.  
-This includes:
-
-- `dags/` – Airflow DAGs for ETL workflows  
-- `logs/` – Airflow task logs  
-- `plugins/` – Airflow custom operators/hooks (none used here)  
-- `.env` – Environment variables for AWS and PostgreSQL connections  
-- `docker-compose.yaml` – Containerized Airflow & PostgreSQL setup
 
 ---
 
