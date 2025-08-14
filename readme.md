@@ -31,7 +31,7 @@ airflow-orc/
 │
 ├── dags/                        # Airflow DAGs (E2E workflows)
 │   ├── s3_to_emr.py             # DAG: Raw S3 → EMR
-│   ├── emr_to_transformed_s3.py # DAG: EMR → S3
+│   ├── emr_to_cleaned_s3.py     # DAG: EMR → S3
 │   └── glue_job.py              # DAG: Glue ETL job
 │
 ├── logs/                        # Airflow logs
