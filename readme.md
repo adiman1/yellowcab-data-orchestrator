@@ -86,14 +86,14 @@ docker-compose up --build
 
 ---
 
-## 🛢️ Database Integration
+## 📕 Database Integration
 
 - PostgreSQL tracks processed files for **idempotency**  
 - Stores metadata about ingestion, processing timestamps, and DAG status
 
 ---
 
-## 🔮 Future Improvements
+## 🔜 Future Improvements
 
 - Real-time ingestion with **Kinesis** or **Kafka**  
 - Add **Slack/Email alerts** for DAG failures  
@@ -102,7 +102,7 @@ docker-compose up --build
 
 ---
 
-## ⚙️ Tech Stack
+## 🖥️ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)  
 ![Airflow](https://img.shields.io/badge/Apache%20Airflow-2.9-blue?logo=apache-airflow&logoColor=white)  
