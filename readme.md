@@ -51,6 +51,7 @@ The project file structure will be **automatically generated** when you run the 
 1. **Configure AWS credentials** to access your IAM account for S3, EMR, Glue, and Athena.  
 - These can be set in the `.env` file or directly in **Airflow Connections**.  
 - Ensure the IAM user/role has sufficient permissions for:
+
    - Reading/writing to S3 buckets  
    - Submitting jobs to EMR  
    - Running Glue crawlers  
