@@ -1,4 +1,4 @@
-This document explains the flow of execution.
+This document explains the flow of execution of the dags.
 
 ---
 
