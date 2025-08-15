@@ -3,7 +3,7 @@
 - The raw NYC Taxi data is transformed to ensure quality and analytics readiness for further downstream purposes.
 - The code for the same is available in this folder. Use it in the EMR Step.
 
-Transformations done:
+**Transformations done:**
 
 1. **Extract Year & Month:** Derived from filename and pickup datetime to enable time-based filtering and partitioning.  
 2. **Timestamp Conversion:** Converts pickup/dropoff strings to timestamps for accurate duration calculations.  
