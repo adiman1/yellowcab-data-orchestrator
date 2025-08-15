@@ -124,3 +124,10 @@ docker-compose up --build
 ![AWS Athena](https://img.shields.io/badge/Athena-green?logo=amazon-aws&logoColor=white)  
 
 ---
+
+## Improvement implemented
+
+Integration with Redshift
+
+
+
