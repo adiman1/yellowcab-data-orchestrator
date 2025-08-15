@@ -127,7 +127,9 @@ docker-compose up --build
 
 ## Improvement implemented
 
-1) Redshiift Integration for fast aggregation queries
+- The 2 converted parquet folders for 2022 & 2023 annual data contain about 70 Million records
+- Hence a columnar DB is needed for fast aggregation queries
+- Therefore Redshift integrated. Sample query below
 
 ![Integration with Redshift](https://github.com/adiman1/yellowcab-data-orchestrator/blob/1a251fb26013350979ca6b75bcfe34b6295fd94d/media/redshift_integration.png)
 
