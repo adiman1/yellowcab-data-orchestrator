@@ -1,6 +1,8 @@
 ## ⚡ EMR/Spark - Data Transformations Done & Rationale
 
-The raw NYC Taxi data is transformed to ensure quality and analytics readiness:
+The raw NYC Taxi data is transformed to ensure quality and analytics readiness for further downstream purposes.
+
+Some Transformations:
 
 1. **Extract Year & Month:** Derived from filename and pickup datetime to enable time-based filtering and partitioning.  
 2. **Timestamp Conversion:** Converts pickup/dropoff strings to timestamps for accurate duration calculations.  
