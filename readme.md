@@ -72,11 +72,13 @@ docker-compose up --build
 - Upload raw CSV files to your Landing S3 bucket to start the ETL workflow
 
 5. **Upload raw CSV** files to your Landing S3 bucket to start the ETL workflow
+   
+---
 
 **Note:** 
 - This Project was done with minimal config for quick execution
 - This Project was done using a Lightweight version of the Official Airflow image 
-- For Prod, we'd config stricter execution roles, VPC's, EC2 key pair (if SSH needed) etc
+- For Prod, we'd config stricter execution roles, specific VPC's, EC2 key pair (if SSH needed) etc
 
 ---
 
