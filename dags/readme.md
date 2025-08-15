@@ -23,7 +23,7 @@ This DAG detects new files in S3 and initiates the EMR processing workflow.
 
 ---
 
-## **2. `emr_to_cleaned_s3` DAG**
+## **2. `emr_to_clean_s3` DAG**
 This DAG handles the main data processing on EMR, converting raw CSV to cleaned Parquet.
 
 ### **Tasks**
