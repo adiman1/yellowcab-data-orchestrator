@@ -1,4 +1,4 @@
-## ⚡ EMR/Spark - Data Transformations Done & Rationale
+## EMR/Spark - Data Transformations Done & Rationale
 
 - The raw NYC Taxi data is transformed to ensure quality and analytics readiness for further downstream purposes.
 - The code for the same is available in this folder. Use it in the EMR Step.
