@@ -43,3 +43,17 @@ Reading Only 2022 data. Both queries were done post 1st DAG Run.
 
   **b) Reading via Partition:**
   ![Query via Partition](https://github.com/adiman1/yellowcab-data-orchestrator/raw/f3826e245e3dd8d85b295ccfc4fd1e0a2b44c5ad/media/query_via_partition.PNG)
+
+---
+
+### 3) Improved Data Quality
+
+The transformations help us clear outlier values that would affect the analysis on the data. 
+
+For e.g. 
+- In our 2023 data, the minimum fare in NYC start from 5 usd.
+- Why ? - Cause of the mandatory taxes paid.
+- Hence fares having values less than this does not make sense.
+- Therfore using percentiles [0.005, 0.995] we clean the very extreme outliers
+- Similarly we tracked same location dropoffs, negative travel distances, other issues and removed them.
+  
