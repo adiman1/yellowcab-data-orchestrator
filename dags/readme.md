@@ -8,15 +8,15 @@ This DAG detects new files in S3 and initiates the EMR processing workflow.
 ### **Tasks**
 1. **Check for New Files** (`PythonOperator`)
    - Scans the landing S3 bucket for unprocessed CSV files.
-   - Compares against the tracking table in PostgreSQL.
+   - Compares the file name against the tracking table in PostgreSQL.
 
 2. **Branch Decision** (`BranchPythonOperator`)
    - **No new files** → Runs `no_new_files_message` and stops.
    - **Too many files** → Runs `too_many_files_message` and stops.
-   - **Exactly one new file** → Runs `inserted_one_file_message` and proceeds.
+   - **Exactly one new file** → Runs `inserted_one_file_message` and **proceeds**.
 
 3. **Insert File Record in PostgreSQL** (`PythonOperator`)
-   - Inserts metadata for the file (name, status, timestamps) into tracking table.
+   - Inserts metadata for the file (name, status, created timestamp) into tracking table.
 
 4. **Trigger `emr_to_cleaned_s3` DAG** (`TriggerDagRunOperator`)
    - Passes file name and metadata as parameters to downstream DAG.
