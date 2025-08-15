@@ -57,5 +57,5 @@ For e.g.
 - Why ? - Cause of the mandatory base fare and taxes paid.
 - Hence fares having values less than this does not make sense.
 - Therfore using percentiles [0.005, 0.995] we clean the very extreme outliers
-- Similarly we tracked same location dropoffs, negative travel distances, other issues and removed them.
+- Similarly we tracked same location dropoffs, zero or negative travel distances and other issues and removed them.
   
