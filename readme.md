@@ -127,7 +127,7 @@ docker-compose up --build
 
 ## Improvement implemented
 
-Integration with Redshift
+[!Integration with Redshift](https://github.com/adiman1/yellowcab-data-orchestrator/blob/1a251fb26013350979ca6b75bcfe34b6295fd94d/media/redshift_integration.png)
 
 
 
