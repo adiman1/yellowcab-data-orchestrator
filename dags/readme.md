@@ -1,5 +1,5 @@
 This document explains the flow of execution of the dags.
-(https://github.com/adiman1/yellowcab-data-orchestrator/blob/d3bf102f600a389e40b5d4836aac1f51fee83a6d/media/airflow_orc-page-001.jpg)
+[](https://github.com/adiman1/yellowcab-data-orchestrator/blob/d3bf102f600a389e40b5d4836aac1f51fee83a6d/media/airflow_orc-page-001.jpg)
 ---
 
 ## **1. `s3_to_emr` DAG**
