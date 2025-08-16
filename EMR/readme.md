@@ -20,7 +20,7 @@
 
 ### 1) Compression 
 
-Converting CSV to Parquet **reduces file sizes by roughly 1/4**, improving storage efficiency and query performance.
+Converting CSV to Parquet **reduces file sizes by roughly 1/5**, improving storage efficiency and query performance.
 
    **a) Original CSV Sizes:**  
    ![Original CSV Sizes](https://github.com/adiman1/yellowcab-data-orchestrator/raw/f5fe7e518bf0b8e9900fc5ad6221bc9fe6d5a65f/media/raw_sizes_csv.png)
