@@ -18,7 +18,7 @@ This DAG detects new files in S3 and initiates the EMR processing workflow.
 3. **Insert File Record in PostgreSQL** (`PythonOperator`)
    - Inserts metadata for the file (name, status, created timestamp) into tracking table.
 
-4. **Trigger `emr_to_cleaned_s3` DAG** (`TriggerDagRunOperator`)
+4. **Trigger `emr_to_clean_s3` DAG** (`TriggerDagRunOperator`)
    - Passes file name and metadata as parameters to downstream DAG.
 
 ---
