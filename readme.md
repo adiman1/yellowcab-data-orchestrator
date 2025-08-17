@@ -135,5 +135,9 @@ docker-compose up --build
 
 ![Integration with Redshift](https://github.com/adiman1/yellowcab-data-orchestrator/blob/1a251fb26013350979ca6b75bcfe34b6295fd94d/media/redshift_integration.png)
 
+---
 
+- Integration with PBI established to create a Dashboard to show important annual metrics on revenue and location basis
+
+![Integration with PBI](https://github.com/adiman1/yellowcab-data-orchestrator/blob/1a251fb26013350979ca6b75bcfe34b6295fd94d/media/redshift_integration.png)
 
