@@ -129,7 +129,7 @@ docker-compose up --build
 
 ## Improvements implemented
 
-1) Redshift
+**1) Redshift**
 
 - The 2 converted parquet folders for 2022 & 2023 annual data contain about 70 Million records
 - Hence a columnar DB is needed for fast aggregation queries
@@ -139,7 +139,7 @@ docker-compose up --build
 
 ---
 
-2) PBI
+**2) PBI**
 
 Integration with PBI established to create a Dashboard to show important annual metrics on revenue and location basis
 
