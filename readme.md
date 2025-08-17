@@ -129,6 +129,8 @@ docker-compose up --build
 
 ## Improvements implemented
 
+1) Redshift
+
 - The 2 converted parquet folders for 2022 & 2023 annual data contain about 70 Million records
 - Hence a columnar DB is needed for fast aggregation queries
 - Therefore Redshift integrated. Sample query below
@@ -136,6 +138,8 @@ docker-compose up --build
 ![Integration with Redshift](https://github.com/adiman1/yellowcab-data-orchestrator/blob/1a251fb26013350979ca6b75bcfe34b6295fd94d/media/redshift_integration.png)
 
 ---
+
+2) PBI
 
 Integration with PBI established to create a Dashboard to show important annual metrics on revenue and location basis
 
