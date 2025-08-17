@@ -147,3 +147,7 @@ Integration with PBI established to create a Dashboard to show important annual 
 
 ![Integration with PBI](https://github.com/adiman1/yellowcab-data-orchestrator/blob/6898e1c246dff2a079ba4cd5384113e82c5b62da/media/pbi_e2e_aflw.jpg)
 
+Specific Location filtered
+
+![Integration with PBI](https://github.com/adiman1/yellowcab-data-orchestrator/blob/1277995c51de27618770949a3b975d2de4feea69/media/pbi_specific_loc.jpg)
+
