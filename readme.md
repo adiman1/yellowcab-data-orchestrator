@@ -124,6 +124,8 @@ docker-compose up --build
 ![AWS EMR](https://img.shields.io/badge/AWS%20EMR-green?logo=amazon-aws&logoColor=white)  
 ![AWS Glue](https://img.shields.io/badge/AWS%20Glue-green?logo=amazon-aws&logoColor=white)  
 ![AWS Athena](https://img.shields.io/badge/Athena-green?logo=amazon-aws&logoColor=white)  
+![AWS Redshift](https://img.shields.io/badge/Redshift-blue?logo=amazon-aws&logoColor=red)
+![Power BI](https://img.shields.io/badge/Power%20BI-yellow?logo=power-bi&logoColor=black)
 
 ---
 
