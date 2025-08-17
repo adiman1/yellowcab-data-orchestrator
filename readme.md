@@ -4,7 +4,7 @@ End-to-end, cross-platform ETL pipeline for the NYC Taxi trip data.
 
 **Click on image to view the orchestration**
 
-[![Click to watch the Orchestration Flow](https://github.com/adiman1/yellowcab-data-orchestrator/blob/0c89dd4704675376ac7c2e1aeedd35bf7d7d6f57/media/orc_airflow_flow.jpg)](https://drive.google.com/file/d/1UU1n2W-04XUJgCoFnwu9zQH2Fp8T259i/view?usp=drive_link)
+[![Click to watch the Orchestration Flow](https://github.com/adiman1/yellowcab-data-orchestrator/blob/eaec50acc14122c666d5aebb8457e821d0cb4b18/media/airflow_orc_f1.jpg)](https://drive.google.com/file/d/1UU1n2W-04XUJgCoFnwu9zQH2Fp8T259i/view?usp=drive_link)
 
 ---
 
