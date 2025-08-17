@@ -127,7 +127,7 @@ docker-compose up --build
 
 ---
 
-## Improvement implemented
+## Improvements implemented
 
 - The 2 converted parquet folders for 2022 & 2023 annual data contain about 70 Million records
 - Hence a columnar DB is needed for fast aggregation queries
