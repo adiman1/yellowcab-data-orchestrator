@@ -60,14 +60,26 @@ For e.g.
 - Therfore using percentiles [0.005, 0.995] we clean the very extreme outliers
 - Similarly we tracked same location dropoffs, zero or negative travel distances and other similar issues and removed them.
 
-Stats for the 2nd run/2023 annual data 
-```
-Processing year: 2023
-Initial row count: 38310226
-After year filter: 38310122
-After basic filters: 35949880
-Computed min_fare: 8.700000047683716
-After outlier filtering: 35009748
-After join: 35009748
-ETL completed successfully!
-```
+
+**2nd Run – 2023 Annual Data Stats**
+
+
+| Step                        | Row Count / Value      | Notes                                                                |
+|-----------------------------|------------------------|----------------------------------------------------------------------|
+| Initial row count           | 38,310,226             | Total rows before any filtering                                      |
+| After year filter           | 38,310,122             | Minor drop (104 rows removed; probably invalid year values)          |
+| After basic filters         | 35,949,880             | ~2.36M rows removed due to basic cleaning/filtering conditions       |
+| Computed min_fare           | 8.7                    | Minimum fare calculated (likely for outlier filtering)               |
+| After outlier filtering     | 35,009,748             | ~940K rows removed as outliers (~2.6%)                               |
+| After join                  | 35,009,748             | No rows removed or added; join matched all relevant records          |
+| Process finished successfully                                                                                               |
+
+**Observations:**
+
+- Year filter removed very few rows, indicating most data had valid years.  
+- Basic filtering had the largest impact (~2.36M rows).
+- Outlier filtering removed ~2.6% of remaining rows. 
+- Join didn’t affect the row count, implying a clean match with the reference table.
+
+I applied basic filters to remove rows with missing or invalid values in key columns, ensure logical consistency (e.g., positive trip distances and fares, valid timestamps), and prepare the dataset for accurate downstream calculations and outlier detection. This ensures that the dataset maintains high quality and supports reliable analytics.
+
