@@ -72,7 +72,6 @@ docker-compose up --build
 - Trigger DAGs
 - Monitor task progress
 - Manage connections and credentials
-- Upload raw CSV files to your Landing S3 bucket to start the ETL workflow
 
 5. **Upload raw CSV** files to your Landing S3 bucket to start the ETL workflow
    
