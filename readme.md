@@ -165,8 +165,10 @@ docker-compose up --build
 - **Average trip cost increased by 32%**, likely due to fare hikes, surcharges, or inflation.  
 - **Average trip distance fell by ~5%**, suggesting more short-haul JFK trips in 2025 vs. 2022.
 
+---
+
 **2022 H1**
-![Integration with Redshift](https://github.com/adiman1/yellowcab-data-orchestrator/blob/02f4d9ac70f4479d8918b3a442a07769e7080bcf/media/H1_2022.jpg)
+![2022 h1](https://github.com/adiman1/yellowcab-data-orchestrator/blob/02f4d9ac70f4479d8918b3a442a07769e7080bcf/media/H1_2022.jpg)
 
 **2025 H1**
-
+![2025 h1](https://github.com/adiman1/yellowcab-data-orchestrator/blob/e0d1a4b45cbac5008e5c0ac69de6e53e0037a0bf/media/H1_2025.jpg)
