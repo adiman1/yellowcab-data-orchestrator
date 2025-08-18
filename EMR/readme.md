@@ -59,4 +59,15 @@ For e.g.
 - Hence fares having values less than this does not make sense.
 - Therfore using percentiles [0.005, 0.995] we clean the very extreme outliers
 - Similarly we tracked same location dropoffs, zero or negative travel distances and other similar issues and removed them.
-  
+
+Stats for the 2nd run/2023 annual data 
+```
+Processing year: 2023
+Initial row count: 38310226
+After year filter: 38310122
+After basic filters: 35949880
+Computed min_fare: 8.700000047683716
+After outlier filtering: 35009748
+After join: 35009748
+ETL completed successfully!
+```
