@@ -81,5 +81,5 @@ For e.g.
 - Outlier filtering removed ~2.6% of remaining rows. 
 - Join didn’t affect the row count, implying a clean match with the reference table.
 
-I applied basic filters to remove rows with missing or invalid values in key columns, ensure logical consistency (e.g., positive trip distances and fares, valid timestamps), and prepare the dataset for accurate downstream calculations and outlier detection. This ensures that the dataset maintains high quality and supports reliable analytics.
+I applied basic filters to remove rows with missing or invalid values in key columns, ensure logical consistency (e.g. positive trip distances and fares, valid timestamps), and prepare the dataset for accurate downstream calculations and outlier detection. This ensures that the dataset maintains high quality and supports reliable analytics.
 
