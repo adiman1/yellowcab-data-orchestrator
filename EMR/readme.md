@@ -61,7 +61,7 @@ For e.g.
 - Similarly we tracked same location dropoffs, zero or negative travel distances and other similar issues and removed them.
 
 
-**2nd Run – 2023 Annual Data Stats**
+**2nd Run – 2023 Annual Data Cleaning Stats**
 
 
 | Step                        | Row Count / Value      | Notes                                                                |
@@ -72,7 +72,6 @@ For e.g.
 | Computed min_fare           | 8.7                    | Minimum fare calculated (likely for outlier filtering)               |
 | After outlier filtering     | 35,009,748             | ~940K rows removed as outliers (~2.6%)                               |
 | After join                  | 35,009,748             | No rows removed or added; join matched all relevant records          |
-| Process finished successfully                                                                                               |
 
 **Observations:**
 
