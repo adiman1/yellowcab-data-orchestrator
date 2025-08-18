@@ -163,7 +163,6 @@ docker-compose up --build
 | **Avg Trip Cost**   | $59.44    | $78.29    | **+$18.85**   | **+31.7%** |
 | **Avg Distance**    | 15.68 Mi  | 14.94 Mi  | **-0.74 Mi**  | **-4.7%**  |
 
-
 - **Revenue growth (+41%)** far outpaces **trip growth (+7%)**, showing that higher fares are the main driver.  
 - **Average trip cost increased by 32%**, likely due to fare hikes, surcharges, or inflation.  
 - **Average trip distance fell by ~5%**, suggesting more short-haul JFK trips in 2025 vs. 2022.
