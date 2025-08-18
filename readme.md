@@ -151,6 +151,7 @@ docker-compose up --build
 [![Integration with PBI](https://github.com/adiman1/yellowcab-data-orchestrator/blob/6898e1c246dff2a079ba4cd5384113e82c5b62da/media/pbi_e2e_aflw.jpg)](https://drive.google.com/file/d/1LA_ajfIbcxALbc9rYU40i4ZJjC9RqcY4/view?usp=sharing)
 
 ---
+
 ## An Insight Generated
 
 **JFK Airport Trips – H1 (Jan - Jun) Comparison**
@@ -174,7 +175,7 @@ docker-compose up --build
 - **Demand Stability** – Even a modest increase in trips (+7%) at JFK indicates **stable or rising passenger flow**, reinforcing its role as a reliable volume driver.  
 
 **Takeaway**: 
-- Monitoring JFK specifically provides a **leading indicator for NYC taxi economics**, since it captures high-value trips, reflects tourism/business travel demand, and magnifies the impact of fare changes. 
+- JFK strengthened its position as NYC’s **most valuable pickup zone**, with revenue growth fueled primarily by higher fares rather than a surge in trip volume.   
 
 ---
 
