@@ -150,5 +150,21 @@ docker-compose up --build
 
 [![Integration with PBI](https://github.com/adiman1/yellowcab-data-orchestrator/blob/6898e1c246dff2a079ba4cd5384113e82c5b62da/media/pbi_e2e_aflw.jpg)](https://drive.google.com/file/d/1LA_ajfIbcxALbc9rYU40i4ZJjC9RqcY4/view?usp=sharing)
 
+## An insight Generated
+
+**JFK Airport Trips – H1 (jan - jun) Comparison**
+
+| Metric              | 2022 H1   | 2025 H1   | Change        | % Change   |
+|---------------------|-----------|-----------|---------------|------------|
+| **Annual Revenue**  | $44.60M   | $63.08M   | **+ $18.48M** | **+41.4%** |
+| **Trips Count**     | 750.24K   | 805.82K   | **+55.58K**   | **+7.4%**  |
+| **Avg Trip Cost**   | $59.44    | $78.29    | **+ $18.85**  | **+31.7%** |
+| **Avg Distance**    | 15.68 Mi  | 14.94 Mi  | **-0.74 Mi**  | **-4.7%**  |
+
+ **Insights**
+
+- **Revenue growth (+41%)** far outpaces **trip growth (+7%)**, showing that higher fares are the main driver.  
+- **Average trip cost increased by 32%**, likely due to fare hikes, surcharges, or inflation.  
+- **Average trip distance fell by ~5%**, suggesting more short-haul JFK trips in 2025 vs. 2022.  
 
 
