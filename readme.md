@@ -163,7 +163,10 @@ docker-compose up --build
 
 - **Revenue growth (+41%)** far outpaces **trip growth (+7%)**, showing that higher fares are the main driver.  
 - **Average trip cost increased by 32%**, likely due to fare hikes, surcharges, or inflation.  
-- **Average trip distance fell by ~5%**, suggesting more short-haul JFK trips in 2025 vs. 2022.  
+- **Average trip distance fell by ~5%**, suggesting more short-haul JFK trips in 2025 vs. 2022.
 
+**2022 H1**
+![Integration with Redshift](https://github.com/adiman1/yellowcab-data-orchestrator/blob/02f4d9ac70f4479d8918b3a442a07769e7080bcf/media/H1_2022.jpg)
 
+**2025 H1**
 
