@@ -150,7 +150,8 @@ docker-compose up --build
 
 [![Integration with PBI](https://github.com/adiman1/yellowcab-data-orchestrator/blob/6898e1c246dff2a079ba4cd5384113e82c5b62da/media/pbi_e2e_aflw.jpg)](https://drive.google.com/file/d/1LA_ajfIbcxALbc9rYU40i4ZJjC9RqcY4/view?usp=sharing)
 
-## An insight Generated
+---
+## An Insight Generated
 
 **JFK Airport Trips – H1 (Jan - Jun) Comparison**
 
