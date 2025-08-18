@@ -175,7 +175,7 @@ docker-compose up --build
 - **Demand Stability** – Even a modest increase in trips (+7%) at JFK indicates **stable or rising passenger flow**, reinforcing its role as a reliable volume driver.  
 
 **Takeaway**: 
-- JFK strengthened its position as NYC’s **most valuable pickup zone**, with revenue growth fueled primarily by higher fares rather than a surge in trip volume.   
+- JFK strengthened its position as NYC’s **most valuable pickup zone**, with revenue growth fueled primarily by higher fares rather than a surge in trip volume. For more context should also add 2023 and 2024 data and compare.
 
 ---
 
