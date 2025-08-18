@@ -143,9 +143,12 @@ docker-compose up --build
 
 **2) PBI**
 
-Integration with PBI established to create a Dashboard to show important annual metrics on revenue and location basis
+- Integration with PBI established to create a Dashboard to show important annual metrics on revenue and location basis.
+- 2025 data till June added to context for change over the years
 
-[![Integration with PBI](https://github.com/adiman1/yellowcab-data-orchestrator/blob/6898e1c246dff2a079ba4cd5384113e82c5b62da/media/pbi_e2e_aflw.jpg)]()
+Click on image view a demo of the dashboard. 
+
+[![Integration with PBI](https://github.com/adiman1/yellowcab-data-orchestrator/blob/6898e1c246dff2a079ba4cd5384113e82c5b62da/media/pbi_e2e_aflw.jpg)](https://drive.google.com/file/d/1LA_ajfIbcxALbc9rYU40i4ZJjC9RqcY4/view?usp=sharing)
 
 
 
