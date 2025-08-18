@@ -144,7 +144,7 @@ docker-compose up --build
 **2) PBI**
 
 - Integration with PBI established to create a Simple Dashboard to show important annual metrics on revenue and location basis.
-- 2025 data till June added to context for change over the years
+- Additionally 2025 data till June added to context for change over the years
 
 **Click on image view a demo of the dashboard** 
 
