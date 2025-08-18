@@ -166,6 +166,16 @@ docker-compose up --build
 - **Average trip cost increased by 32%**, likely due to fare hikes, surcharges, or inflation.  
 - **Average trip distance fell by ~5%**, suggesting more short-haul JFK trips in 2025 vs. 2022.
 
+**Why JFK Matters**
+
+- **Top Revenue Generator** – JFK consistently ranks as the **highest revenue-generating pickup location** among NYC taxi zones. Tracking it separately highlights the health of the most critical demand hub.  
+- **Gateway for Travelers** – As a major international airport, JFK is strongly influenced by **tourism, business travel, and flight traffic**. Changes here signal broader economic or travel trends.  
+- **Pricing Sensitivity** – Airport trips carry **premium fares and surcharges**, so shifts in cost and distance have an outsized impact on total revenue.  
+- **Demand Stability** – Even a modest increase in trips (+7%) at JFK indicates **stable or rising passenger flow**, reinforcing its role as a reliable volume driver.  
+
+**Takeaway**: 
+- Monitoring JFK specifically provides a **leading indicator for NYC taxi economics**, since it captures high-value trips, reflects tourism/business travel demand, and magnifies the impact of fare changes. 
+
 ---
 
 **2022 H1**
